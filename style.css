@@ -24,6 +24,7 @@ body {
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1.5rem;
 }
 
 .music-player {
@@ -139,6 +140,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
+    z-index: 10;
 }
 
 .sticky-nav-icons {
@@ -158,4 +160,46 @@ a {
     .hide {
         display: none;
     }
+}
+
+.card {
+    width: 150px;
+    background-color: #232323;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-info {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
 }
